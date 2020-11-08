@@ -21,8 +21,9 @@ function inputSubmit() {
     }
     employee.push(emp);
     event.preventDefault();
+    $("#empName").append(`${employee.firstname}`);
     $(".inFields").val([]);
-
+    
     // console.log(employee);
     
 }
