@@ -13,10 +13,16 @@ function readyNow() {
 function inputSubmit() {
     console.log('submitting input');
     let emp = {
-        firstName: $('#firstName-in').val();
-        lastName: $('#lastName-in').val();
-        id: $('id-in').val()
+        firstName: $('#firstName-in').val(),
+        lastName: $('#lastName-in').val(),
+        id: $('#id-in').val(),
+        title: $('#title-in').val(),
+        annualSal: $('#annSal-in').val()
     }
-    
+    employee.push(emp);
     event.preventDefault();
+    $(".inFields").val([]);
+
+    // console.log(employee);
+    
 }
