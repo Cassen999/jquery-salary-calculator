@@ -1,11 +1,3 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
-
-## Description
-
-Your project description goes here. What problem did you solve? How did you solve it?
-
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
 
 ![REPO SIZE](https://img.shields.io/github/repo-size/Cassen999/jquery-salary-calculator.svg?style=flat-square)
@@ -14,47 +6,36 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 # PROJECT NAME
 
+Employee Monthly Cost Calculator
+
 ## Description
 
-_Duration: Weekend_ How long did it take me?
+_Duration: Weekend_ 8 Hours
 
+This is a calculator that, when inputs are submitted, will tell you the monthly cost of having specified employee
 Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it? 
 
 
 
-To see the fully functional site, please visit: [DEPLOYED VERSION OF APP](www.heroku.com)
-
-## Screen Shot
-
-Include one or two screen shots of your project here (optional). Remove if unused.
-
+To see the fully functional site, please visit: https://github.com/Cassen999/jquery-salary-calculator
 
 ## Installation
 
 Open index.html in the browser
 
 ## Usage
-How does someone use this application? Tell a user story here.
+Using this application will let you know the monthly cost of the employee that is input
 
-1. xxx
-2. xxx
-3. xxx
-4. xxx
-5. xxx
-6. xxx
-
+1. Adds monthly costs together
+2. Allows removal of employee
+3. Background color of total monthly cost will turn red if it exceeds $20,000.00
 
 ## Built With
 
-List technologies and frameworks here
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-_Note, include this only if you have a license file. GitHub will generate one for you if you want!_
+HTML, CSS, JavaScript, jQuery
 
 ## Acknowledgement
-Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. (Thank your people)
+Thanks to Carl Barfuss and Kim Orchard for helping me out with functionality questions and identifying bugs
 
 ## Support
-If you have suggestions or issues, please email me at [youremail@whatever.com](www.google.com)
+If you have suggestions or issues, please email me at [cassenpt@gmail.com]
