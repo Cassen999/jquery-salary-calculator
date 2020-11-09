@@ -2,3 +2,51 @@ table, th, td {
     border: 1px solid black;
     width: auto;
 }
+
+.redBackground{
+    background-color: red;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.inFields {
+    background-color: #B0C4DE;
+    color: black;
+}
+
+#inputButton {
+    background-color: teal;
+    border-color: black;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+#tableName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#costCalc {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#addEmp {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}

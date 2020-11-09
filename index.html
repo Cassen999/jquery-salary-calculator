@@ -9,6 +9,7 @@
     <script src="client.js"></script>
 </head>
 <body>
+    <h1 id="pageTitle">Employee Monthly Cost Calculator</h1>
     <div class="inputTitle">
         <p id="addEmp">Add Employee</p>
     </div>
@@ -18,33 +19,32 @@
                 <input type="text" class="inFields" id="lastName-in" placeholder="Last Name">
                 <input type ="number" class="inFields" id="id-in" placeholder="ID">
                 <input type="text" class="inFields" id="title-in" placeholder="Title">
-                <input type ="number" class="inFields" id="annSal-in" placeholder="Annual Salary">
+                <input type =-" class="inFields" id="annSal-in" placeholder="Annual Salary">
                 <button id="inputButton">Submit</button>
             </div>
         </form>
     <div class="table"></div>
         <p id="tableName">Employees</p>
-        <table>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Annual Salary</th>
-                <th></th>
-            </tr>
-            <tr class="emp">
-                <td id="empName"></td>
-                <td id="empLastName"></td>
-                <td id="empID"></td>
-                <td id="empTitle"></td>
-                <td id="empAnnSal"></td>
-                <td><button id="deleteButton">Delete</button></td>
-            </tr>
+        <table class="empTable">
+            <thread>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thread>
+            <tbody id="tableBody">
+                <!--jQuery-->
+            </tbody>
         </table>
     </div> 
     <div class="monthlyCost">
-        <p id="costCalc"><!--add jQuery--></p>
+        <p id="costCalc">Total Monthly Cost: $0<!--add jQuery--></p>
     </div>     
 </body>
 </html>
+
+
